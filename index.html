@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Calculadora de pH</title>
-  <link rel="stylesheet" type="text/css" href="./estilo.css">
+<title>Calculadora de pH</title>
+<link rel="stylesheet" type="text/css" href="./estilo.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Calculadora de pH</h1>
-    <div class="form-group">
-      <label for="acido">Escolha um ácido:</label>
-      <select id="acido">
-        <option value="acido1">Ácido Acético</option>
-        <option value="acido2">Ácido Benzóico</option>
-        <option value="acido3">Ácido Cítrico</option>
-        <option value="acido4">Ácido Carbônico</option>
-        <option value="acido5">Ácido Fórmico</option>
-        <option value="acido6">Ácido Fosfórico</option>
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="concentracao">Concentração (mol/L):</label>
-      <input type="number" id="concentracao" step="0.01">
-    </div>
-    <button onclick="calcularpH()">Calcular pH</button>
-    <div class="result" id="result"></div>
-  </div>
+<div class="container">
+<h1>Calculadora de pH</h1>
+<div class="form-group">
+<label for="acido">Escolha um ácido:</label>
+<select id="acido">
+<option value="acido1">Ácido Acético</option>
+<option value="acido2">Ácido Benzóico</option>
+<option value="acido3">Ácido Cítrico</option>
+<option value="acido4">Ácido Carbônico</option>
+<option value="acido5">Ácido Fórmico</option>
+<option value="acido6">Ácido Fosfórico</option>
+</select>
+</div>
+<div class="form-group">
+<label for="concentracao">Digite a concentração:</label>
+<input type="text" id="concentracao" placeholder="Ex: 0,5">
+</div>
+<button onclick="calcularpH()">Calcular pH</button>
+<div class="result" id="result"></div>
+</div>
 
-  <script src="./script.js"></script>
+<script src="./script.js"></script>
 </body>
 </html>
